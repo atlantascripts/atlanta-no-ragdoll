@@ -22,8 +22,8 @@ end)
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(200)
-        local iPed = GetPlayerPed(-1)
-        SetPedCanRagdoll(iPed, false)
+        local Ped = GetPlayerPed(-1)
+        SetPedCanRagdoll(Ped, false)
     end
 end)
 
